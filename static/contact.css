@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+
+}
+.container{
+    min-height: 82vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 23px 0; */
+}
+.container h1{
+    font-family: 'Gideon Roman', cursive;
+    font-size: 34px;
+}
+.myForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.myInput{
+    width: 400px;
+    padding: 4px;
+    margin: 7px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    outline: none;
+}
+.btn{
+    padding: 9px 8px;
+    font-size: 17px;
+    border: 2px solid grey;
+    background-color: rgb(154, 165, 177);
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+    margin: 12px;
+
+}
+.btn:hover{
+    background-color: rgb(192, 214, 197);
+    color: aliceblue;
+}
